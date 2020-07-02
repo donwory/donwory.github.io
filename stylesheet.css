@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: "DejaVu Sans Mono";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://majalah.ottencoffee.co.id/wp-content/uploads/2017/02/1-r02q17GGCoyh3JyjNnqoDA.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(52, 79, 127, 0.96);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 250px;
+  margin-top: 10px;
+}
+
+li {
+  list-style: none;
+  float: left;
+  padding-right: 170px;
+  display:block;
+}
+.header-list a {
+  transition: all 0.5s;
+}
+
+.header-list a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-list a {
+  line-height: 65px;
+  color: white;
+  display: block;
+}
