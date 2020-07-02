@@ -63,3 +63,67 @@ li {
   color: white;
   display: block;
 }
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-family: Lucida Calligraphy;
+  color: #b2422e;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 5px;
+  width: 100%;
+  color: #f9f4cd;
+  font-size: 13px;
+  font-family: Lucida Calligraphy;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #7a5a38;
+  font-family: Brush Script MT;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #d77665;
+  cursor: pointer;
+  box-shadow: 0 7px #b2422e;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
