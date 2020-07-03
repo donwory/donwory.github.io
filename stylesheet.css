@@ -58,7 +58,7 @@ li {
 }
 
 .header-list a {
-  line-height: 30px;
+  line-height: 65px;
   color: white;
   display: block;
   transition: all 0.5s;
