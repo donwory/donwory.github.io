@@ -7,8 +7,8 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 97%;
+header .container {
+  /*width: 97%;*/
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -75,12 +75,20 @@ li {
 }
 .lesson-wrapper {
   height: 500px;
+  width: 100%;
   padding-bottom: 80px;
   background-color: #f7f7f7;
   text-align: center;
 }
-.flex-list lesson {
+
+  
+.lessons {
   display: flex;
+
+}
+
+
+.flex-list lesson {
   flex: auto;
 }
 
@@ -98,11 +106,19 @@ li {
 
 .lesson {
   float: left;
-  width: 25%;
+  width: 24%;
+  margin: 2px;
+  display: inline-block;
 }
 
 .lesson-icon {
   position: relative;
+}
+
+.lesson-icon img {
+  width: 60%;
+  height: 60%;
+  box-sizing: border-box;
 }
 
 .txt-contents {
