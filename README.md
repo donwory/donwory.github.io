@@ -1,2 +1,2 @@
-# team-f11
+# team-f11.github.io
 Proyek tim
