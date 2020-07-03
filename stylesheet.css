@@ -47,8 +47,8 @@ header {
 
 li {
   list-style: none;
-  float: left;
   padding-right: 170px;
+  float: left;
   display: block;
   font-family: Arial Narrow, sans-serif;
   font-size: 20px;
@@ -59,18 +59,28 @@ li {
 }
 
 .header-list a {
-  padding-top: 30px;
-  line-height: 30px;
+  line-height: 35px;
   color: white;
   display: block;
   transition: all 0.5s;
 }
 
+.flex-list {
+  display: flex;
+
+}
+.flex-list li {
+  flex: auto;
+
+}
 .lesson-wrapper {
   height: 500px;
   padding-bottom: 80px;
   background-color: #f7f7f7;
   text-align: center;
+}
+.flex-list lesson {
+  flex: auto;
 }
 
 .heading {
@@ -87,7 +97,7 @@ li {
 
 .lesson {
   float: left;
-  width: 25%;
+  width: 23%;
 }
 
 .lesson-icon {
@@ -148,6 +158,22 @@ footer {
   height: 65px;
   width: 100%;
   background-color: rgba(219, 102, 6, 1);
-
 }
 
+@media (max-width: 1000px) {
+  .flex-list {
+    flex-wrap: wrap;
+  }
+  .flex-list li {
+    width: 50%;
+  }
+}
+
+@media (max-width: 670px) {
+  .flex-list {
+    flex-direction: column;
+  }
+  .flex-list li {
+    margin:0 auto;
+  }
+}
