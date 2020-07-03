@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "DejaVu Sans Mono";
+  font-family: "Arial Narrow, sans-serif";
 }
 
 a {
@@ -25,16 +25,16 @@ a {
 .top-wrapper h1 {
   opacity: 1;
   font-size: 30px;
-  letter-spacing: 5px;
   margin-bottom: 10px;
-  color: white;
+  letter-spacing: 5px;
+  color: #fdf6e2;
+  font-family: Times New Roman;
 }
 
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(52, 79, 127, 0.96);
-  position: fixed;
+  background-color: rgba(178, 66, 46, 0.96);
   top: 0;
   z-index: 10;
 }
@@ -48,10 +48,9 @@ li {
   list-style: none;
   float: left;
   padding-right: 170px;
-  display:block;
-}
-.header-list a {
-  transition: all 0.5s;
+  display: block;
+  font-family: Arial Narrow, sans-serif;
+  font-size: 20px;
 }
 
 .header-list a:hover {
@@ -59,10 +58,12 @@ li {
 }
 
 .header-list a {
-  line-height: 65px;
+  line-height: 30px;
   color: white;
   display: block;
+  transition: all 0.5s;
 }
+
 .lesson-wrapper {
   height: 500px;
   padding-bottom: 80px;
@@ -78,7 +79,7 @@ li {
 
 .heading h2 {
   font-weight: normal;
-  font-family: Lucida Calligraphy;
+  font-family: Impact, fantasy;
   color: #b2422e;
 }
 
@@ -93,20 +94,20 @@ li {
 
 .lesson-icon p {
   position: absolute;
-  top: 5px;
+  top: 1px;
   width: 100%;
   color: #f9f4cd;
-  font-size: 13px;
-  font-family: Lucida Calligraphy;
+  font-size: 17px;
+  font-family: Arial Narrow, sans-serif;
 }
 
 .txt-contents {
   width: 80%;
   display: inline-block;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 15px;
   color: #7a5a38;
-  font-family: Brush Script MT;
+  font-family: Arial Narrow, sans-serif;
 }
 
 .message-wrapper {
@@ -117,9 +118,10 @@ li {
 
 .message {
   padding: 15px 40px;
-  background-color: #d77665;
+  background-color: #fbf551;
   cursor: pointer;
-  box-shadow: 0 7px #b2422e;
+  box-shadow: 0 7px rgba(219, 102, 6, 1);
+  font-family: Arial Narrow, sans-serif;
 }
 
 .message:active {
@@ -127,3 +129,23 @@ li {
   top: 7px;
   box-shadow: none;
 }
+
+footer img {
+  width: 80px;
+  float: left;
+}
+
+footer p {
+  margin-left: 80px;
+  padding: 15px 10px;
+  font-size: 25px;
+  font-family: Impact, fantasy;
+}
+
+footer {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(219, 102, 6, 1);
+
+}
+
