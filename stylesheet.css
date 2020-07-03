@@ -47,7 +47,7 @@ header {
 
 li {
   list-style: none;
-  padding-right: 120px;
+  padding-right: 127px;
   float: left;
   display: block;
   font-family: Arial Narrow, sans-serif;
@@ -98,20 +98,11 @@ li {
 
 .lesson {
   float: left;
-  width: 23%;
+  width: 25%;
 }
 
 .lesson-icon {
   position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 1px;
-  width: 100%;
-  color: #f9f4cd;
-  font-size: 17px;
-  font-family: Arial Narrow, sans-serif;
 }
 
 .txt-contents {
